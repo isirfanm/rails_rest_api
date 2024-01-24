@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -X POST --data '{"author":"James", "title":"a book"}' localhost:3000/books -v
