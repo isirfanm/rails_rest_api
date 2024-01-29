@@ -1,1 +1,1 @@
-curl -H "Content-Type: application/json" -X DELETE localhost:3000/books/1 -v
+curl -H "Content-Type: application/json" -X DELETE localhost:3000/api/v1/books/1 -v

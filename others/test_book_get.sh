@@ -1,1 +1,1 @@
-curl -H "Content-Type: application/json" -X GET localhost:3000/books -v
+curl -H "Content-Type: application/json" -X GET localhost:3000/api/v1/books -v
