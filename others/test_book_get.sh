@@ -1,0 +1,1 @@
+curl -H "Content-Type: application/json" -X GET localhost:3000/books -v
