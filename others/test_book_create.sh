@@ -1,1 +1,1 @@
-curl -H "Content-Type: application/json" -X POST --data '{"author":"James", "title":"a book"}' localhost:3000/api/v1/books -v
+curl -H "Content-Type: application/json" -X POST --data '{"author": {"first_name":"James", "last_name":"Cook", "age":45}, "book": {"title":"a book"}}' localhost:3000/api/v1/books -v
