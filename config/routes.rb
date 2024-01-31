@@ -12,6 +12,8 @@ Rails.application.routes.draw do
     namespace :v1 do
       # get '/books' => 'books#index'
       resources :books, only: [:index, :create, :destroy]
+
+      post 'authenticate', to: 'authentication#create'
     end
   end
 end
