@@ -1,1 +1,1 @@
-curl -H "Content-Type: application/json" -X DELETE localhost:3000/api/v1/books/1 -v
+curl -H "Content-Type: application/json" --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.DiPWrOKsx3sPeVClrm_j07XNdSYHgBa3Qctosdxax3w' -X DELETE localhost:3000/api/v1/books/5 -v

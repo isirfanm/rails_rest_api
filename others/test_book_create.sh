@@ -1,1 +1,1 @@
-curl -H "Content-Type: application/json" -X POST --data '{"author": {"first_name":"James", "last_name":"Cook", "age":45}, "book": {"title":"a book"}}' localhost:3000/api/v1/books -v
+curl -H "Content-Type: application/json" -X POST --header 'Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoxfQ.DiPWrOKsx3sPeVClrm_j07XNdSYHgBa3Qctosdxax3w' --data '{"author": {"first_name":"James", "last_name":"Cook", "age":45}, "book": {"title":"a book"}}' localhost:3000/api/v1/books -v
